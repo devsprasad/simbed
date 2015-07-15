@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Blocks packagee="Calculus" category="Calculus">
+	<Block name="Integrator" TypeName="Calculus">
+		<input name="FxValues" type="list" default="[]" />
+		<input name="LowerLimit" type="float" default="0" />
+		<input name="UpperLimit" type="float" default="0" />
+		<output name="Output" type="float" callback="calc_integrator" />
+	</Block>
+</Blocks> 

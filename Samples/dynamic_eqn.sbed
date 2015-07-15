@@ -1,0 +1,30 @@
+# Implementation of : y(t) = t^2 + 2*t + 10 
+# bloocks used: 
+# Arith.Add
+# Arith.Mul
+# Airth.Square
+
+# See: tsquare.png for block diagram
+# See : tsqaure_simple.sbed for simpler and more efficient implementation 
+#	of equivalent simulation
+
+assume sq as Arith.Square
+assume mul as Arith.Mul
+assume sum1 as Arith.Add
+assume sum2 as Arith.Add
+
+
+let sq.X be t
+let sum2.Y be 10
+let mul.X be 2
+let mul.Y be t
+
+
+# find y1(t) = t^2 + 2*t 
+connect sq.Output to sum1.X
+connect mul.Output to sum1.Y
+
+# find y2(t) = y1(t) + 10 = y(t)
+connect sum1.Output to sum2.X
+
+show sum2.Output

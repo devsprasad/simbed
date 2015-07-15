@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks package="Signals" category="Signal Processing">
+<!-- 	<block name="Sinusoid" TypeName="SignalProcessor">
+		<output name="xt" callback="block_sinusoid"  />
+	</block>
+ -->	<block name="Convolution" TypeName="SigConv">
+		<input name="X" type="list" default="[]" />
+		<input name="Y" type="list" default="[]" />
+		<output name="Output" callback="block_conv" type="list" />
+	</block>
+	<block name="CrossCorrelation" TypeName="SigConv">
+		<input name="X" type="list" default="[]" />
+		<input name="Y" type="list" default="[]" />
+		<output name="Output" callback="block_xcorr" type="list" />
+	</block>
+	<block name="AutoCorrelation" TypeName="SigConv">
+		<input name="X" type="list" default="[]" />
+		<output name="Output" callback="block_autocorr" type="list" />
+	</block>
+<!-- 	<block name="FFT">
+		<input name="xt" type="list" default="[]" />
+		<input name="N" type="int" default="1024" />
+		<output name="Output" callback="block_fft" type="list" />
+	</block>
+	<block name="IFFT">
+		<input name="Xf" type="list" default="[]" />
+		<input name="N" type="int" default="1024" />
+		<output name="Output" callback="block_ifft" type="list" />
+	</block> -->
+
+</blocks>

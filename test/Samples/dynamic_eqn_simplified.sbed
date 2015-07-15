@@ -1,0 +1,7 @@
+assume buff as Generic.Buffer
+
+// directly give the equation as input to the Buffer
+let buff.Value be (t*t + 2*t + 10)
+
+// display the value in the buffer
+show buff.Output

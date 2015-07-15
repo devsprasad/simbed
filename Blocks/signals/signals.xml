@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Blocks package="Signals" category="Signal Processing">
+	<Block name="Sinusoid" TypeName="SignalGenerator">
+		<attrib name="f" type="float" default="1" />
+		<attrib name="fs" type="float" default="20" />
+		<output name="xt" type="list" callback="block_sinusoid"  />
+	</Block>
+ 	<Block name="Convolution" TypeName="SigConv">
+		<input name="X" type="list" default="[]" />
+		<input name="Y" type="list" default="[]" />
+		<output name="Output" callback="block_conv" type="list" />
+	</Block>
+	<Block name="CrossCorrelation" TypeName="SigConv">
+		<input name="X" type="list" default="[]" />
+		<input name="Y" type="list" default="[]" />
+		<attrib name="n" type="float" default="-1" />
+		<attrib name="m" type="float" default="-1" />
+		<output name="Output" callback="block_xcorr" type="list" />
+	</Block>
+	<Block name="AutoCorrelation" TypeName="SigConv">
+		<input name="X" type="list" default="[]" />
+		<attrib name="n" type="float" default="-1" />
+		<attrib name="m" type="float" default="-1" />
+		<output name="Output" callback="block_autocorr" type="list" />
+	</Block>
+	<Block name="FFT" TypeName="SignalProcessor">
+		<input name="xt" type="list" default="[]" />
+		<input name="N" type="int" default="1024" />
+		<output name="Output" callback="block_fft" type="list" />
+	</Block>
+	<Block name="IFFT" TypeName="SignalProcessor">
+		<input name="Xf" type="list" default="[]" />
+		<input name="N" type="int" default="1024" />
+		<output name="Output" callback="block_ifft" type="list" />
+	</Block>
+
+</Blocks>

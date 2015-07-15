@@ -1,0 +1,1115 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"H",
+				"HA2	(statement)"
+			],
+			[
+				"S",
+				"sum_Y〔function〕"
+			],
+			[
+				"A",
+				"A_Value〔function〕"
+			],
+			[
+				"sum",
+				"sum_Y"
+			],
+			[
+				"B",
+				"B_Value〔function〕"
+			],
+			[
+				"s",
+				"sum_Y〔function〕"
+			],
+			[
+				"I",
+				"IGNORECASE	(statement)"
+			],
+			[
+				"In",
+				"InvalidMAC"
+			],
+			[
+				"thre",
+				"threading	(module)"
+			],
+			[
+				"thr",
+				"threading	(module)"
+			],
+			[
+				"prop",
+				"property	(class)"
+			],
+			[
+				"c",
+				"callback"
+			],
+			[
+				"ans",
+				"answer〔variable〕"
+			],
+			[
+				"rt",
+				"rtfBox	(statement)"
+			],
+			[
+				"__",
+				"__setup"
+			],
+			[
+				"Si",
+				"Simbed.Core.Math〔module〕"
+			],
+			[
+				"Sam",
+				"Samples"
+			],
+			[
+				"yi",
+				"yielder"
+			],
+			[
+				"pow",
+				"pow	(function)"
+			],
+			[
+				"q",
+				"_queue	(statement)"
+			],
+			[
+				"par",
+				"param"
+			],
+			[
+				"AB",
+				"AB_GUI"
+			],
+			[
+				"LED",
+				"LED_GUI〔variable〕"
+			],
+			[
+				"LE",
+				"LED_GUI"
+			],
+			[
+				"F",
+				"Fcallback"
+			],
+			[
+				"ful",
+				"full_adder_sum〔function〕"
+			],
+			[
+				"or",
+				"or1_Y	(statement)"
+			],
+			[
+				"HA",
+				"HA2_sum〔variable〕"
+			],
+			[
+				"and",
+				"and_Y"
+			],
+			[
+				"src",
+				"srcB_out〔argument〕"
+			],
+			[
+				"xor",
+				"xor_Y〔variable〕"
+			],
+			[
+				"srcB",
+				"srcB_out"
+			],
+			[
+				"nt",
+				"nt1_notx〔variable〕"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"sink",
+				"sinkin"
+			],
+			[
+				"Get",
+				"GetCallStatement"
+			],
+			[
+				"fun",
+				"func_body	(statement)"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"bloc",
+				"block_add"
+			],
+			[
+				"pr",
+				"property	(class)"
+			],
+			[
+				"Source",
+				"SourceEncoder_Default"
+			],
+			[
+				"property",
+				"property	New Property"
+			],
+			[
+				"sr",
+				"src_term〔variable〕"
+			],
+			[
+				"tgt",
+				"tgt_obj〔variable〕"
+			],
+			[
+				"has",
+				"hasattr〔function〕"
+			],
+			[
+				"block",
+				"block_code〔variable〕"
+			],
+			[
+				"v",
+				"_vars	(statement)"
+			],
+			[
+				"get",
+				"get_callback〔function〕"
+			],
+			[
+				"cre",
+				"create_blocks〔function〕"
+			],
+			[
+				"blocks",
+				"block_list"
+			],
+			[
+				"inpu",
+				"inputs〔variable〕"
+			],
+			[
+				"pa",
+				"parse	(function)"
+			],
+			[
+				"set",
+				"setattr	(function)"
+			],
+			[
+				"para",
+				"parameters"
+			],
+			[
+				"ha",
+				"handler"
+			],
+			[
+				"read",
+				"read_term2"
+			],
+			[
+				"even",
+				"events"
+			],
+			[
+				"write",
+				"writeOut"
+			],
+			[
+				"sam",
+				"sample_rate〔variable〕"
+			],
+			[
+				"base",
+				"base_f〔variable〕"
+			],
+			[
+				"tx",
+				"tx3"
+			],
+			[
+				"cha",
+				"channelNoise〔variable〕"
+			],
+			[
+				"demo",
+				"demodulator	(param)"
+			],
+			[
+				"modu",
+				"modulator	(param)"
+			],
+			[
+				"noi",
+				"noisePower〔variable〕"
+			],
+			[
+				"ch",
+				"channelNoise"
+			],
+			[
+				"no",
+				"nothread"
+			],
+			[
+				"mod",
+				"modulator"
+			],
+			[
+				"def",
+				"defs	Method"
+			],
+			[
+				"re",
+				"reverse〔function〕"
+			],
+			[
+				"mo",
+				"modulated	(statement)"
+			],
+			[
+				"Node",
+				"NodeVisitor"
+			],
+			[
+				"fc",
+				"fc2〔variable〕"
+			],
+			[
+				"val",
+				"vals_d〔variable〕"
+			],
+			[
+				"dem",
+				"demodulated	(statement)"
+			],
+			[
+				"chu",
+				"chunk〔variable〕"
+			],
+			[
+				"sa",
+				"samples_per_symbol"
+			],
+			[
+				"chunk",
+				"chunks〔function〕"
+			],
+			[
+				"x",
+				"Xf	(statement)"
+			],
+			[
+				"comp",
+				"complex〔class〕"
+			],
+			[
+				"xf",
+				"Xf	(param)"
+			],
+			[
+				"car",
+				"carrier_frequency〔variable〕"
+			],
+			[
+				"n",
+				"nsinusoid"
+			],
+			[
+				"demodu",
+				"demodulator"
+			],
+			[
+				"ext",
+				"extendScale"
+			],
+			[
+				"buff",
+				"buffer"
+			],
+			[
+				"Wa",
+				"WaveOut"
+			],
+			[
+				"Ana",
+				"AnalogIn〔variable〕"
+			],
+			[
+				"Wav",
+				"WaveFormat"
+			],
+			[
+				"analog",
+				"AnalogIn	(statement)"
+			],
+			[
+				"comm",
+				"common_difference"
+			],
+			[
+				"exte",
+				"extendScale〔function〕"
+			],
+			[
+				"com",
+				"common_difference〔variable〕"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"ran",
+				"randombin〔function〕"
+			],
+			[
+				"cos",
+				"cos1〔variable〕"
+			],
+			[
+				"tim",
+				"time_end"
+			],
+			[
+				"ct",
+				"ct1〔variable〕"
+			],
+			[
+				"bi",
+				"bit〔variable〕"
+			],
+			[
+				"time",
+				"time_end〔argument〕"
+			],
+			[
+				"ca",
+				"carrier_frequency〔variable〕"
+			],
+			[
+				"mou",
+				"modulating_sequence"
+			],
+			[
+				"au",
+				"audio_buffer"
+			],
+			[
+				"dire",
+				"directOut	(statement)"
+			],
+			[
+				"DI",
+				"DIRECT_OUT_PLAY_LIST〔variable〕"
+			],
+			[
+				"D",
+				"DIRECT_OUT_PLAY_LIST	(statement)"
+			],
+			[
+				"DIR",
+				"DIRECT_OUT_PLAY_LIST〔variable〕"
+			],
+			[
+				"Di",
+				"DIRECT_OUT_BUFFER_EMPTY	(statement)"
+			],
+			[
+				"bu",
+				"busy"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"plo",
+				"plotting"
+			],
+			[
+				"pad",
+				"pad_with	(param)"
+			],
+			[
+				"max",
+				"max_len"
+			],
+			[
+				"is",
+				"isinstance〔function〕"
+			],
+			[
+				"ff",
+				"fftr1d"
+			],
+			[
+				"ret",
+				"return〔keyword〕"
+			],
+			[
+				"seq",
+				"sequences"
+			],
+			[
+				"sin",
+				"sinusoid"
+			],
+			[
+				"per",
+				"pearson_def〔function〕"
+			],
+			[
+				"po",
+				"power〔variable〕"
+			],
+			[
+				"tr",
+				"try〔keyword〕"
+			],
+			[
+				"fx",
+				"fx_powp〔variable〕"
+			],
+			[
+				"tra",
+				"trapz〔function〕"
+			],
+			[
+				"gro",
+				"groupdict	(function)"
+			],
+			[
+				"ma",
+				"matches"
+			],
+			[
+				"g",
+				"greetings_handler"
+			],
+			[
+				"pi",
+				"pi	\\pi"
+			],
+			[
+				"print",
+				"print〔function〕"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Blocks/Arithmetic/init.py",
+			"settings":
+			{
+				"buffer_size": 1168,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Synesthesia/Synesthesia.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Synesthesia/Synesthesia.sublime-build",
+					""
+				],
+				[
+					"Packages/IJulia/julia-build.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/IJulia/julia-build.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"snip",
+				"Snippet: while"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"subl",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 401.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/CircuitMan/Projects/DC/Blocks",
+		"/F/CircuitMan/Projects/DC/Blocks/Arithmetic"
+	],
+	"file_history":
+	[
+		"/F/CircuitMan/Projects/DC/Blocks/Generic/generic.xml",
+		"/F/CircuitMan/Projects/DC/Blocks/Generic/init.py",
+		"/F/CircuitMan/Projects/DC/Blocks/Arithmetic/arithmetic.xml",
+		"/F/CircuitMan/Projects/DC/Blocks/signals/signals.xml",
+		"/F/CircuitMan/Projects/DC/Blocks/signals/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/user/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/user/user.xml",
+		"/F/CircuitMan/Projects/DC/Blocks/user/user.xml",
+		"/F/CircuitMan/Projects/DC/Blocks/user/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/x/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/x/test.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/test.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/Digital/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/Generic/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/Digital/digital_basic.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Release/blocks/x/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/SimbedEnvision_CSharp.csproj.user",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/SimbedEnvision_CSharp.csproj",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp.sln",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/Generic/generic.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/dummy/dummy.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/dummy/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/signals/signals.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/signals/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/old/signals/signals.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/old/signals/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/Networking/networking.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/Networking/init.py",
+		"/C/Users/Sprasad/Desktop/testx.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/old/Hardware/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/old/higher/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/old/higher/differential.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/old/generic/generic.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/old/generic/generic.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/Arithmetic/arithmetic.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/old/digital/digital_basic.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/old/digital/digital_derived.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/digital2/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/old/digital/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/arithmetic/arithmetic.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/arithmetic/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/Digital/digital.xml",
+		"/F/Personal/practice/sh.py",
+		"/F/Personal/practice/theprob.py",
+		"/C/Python34/Lib/cmd.py",
+		"/C/Users/Sprasad/AppData/Roaming/Sublime Text 2/Pristine Packages/Python.sublime-package",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/generic/generic.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/generic/generic.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/_sim.py",
+		"/C/Users/Sprasad/Desktop/test.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/Generic/generic.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/test/testblocks.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/test/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/test/testblocks.py",
+		"/C/Program Files (x86)/MyPublicWiFi/UrlLog/2015-06-26.txt",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/higher/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/higher/differential.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/core/init.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/lib/math.py",
+		"/F/Techman/New folder/Embedding the Dynamic Language Runtime.htm",
+		"/F/migration/Documents/Visual Studio 2008/Projects/SkyVista/bin/Debug/data/fk5.txt",
+		"/F/CircuitMan/Research/DigitalComm_Simulator/GPDC/GPDC/bin/Debug/core/init.py",
+		"/C/Program Files (x86)/MyPublicWiFi/UrlLog/2015-06-25.txt",
+		"/C/Users/Sprasad/Desktop/test.txt",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/signals/init.py",
+		"/C/Users/Sprasad/Desktop/sf.txt",
+		"/C/Users/Sprasad/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Sprasad/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Sprasad/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/Hardware/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/Hardware/Hardware.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/signals/signals.xml",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/lib/builtins.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/lib/signal_proc.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/init.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/lib/signal_gen.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/arithmetic/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/arithmetic/arithmetic.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/digital/digital_derived.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/digitalcomm/digital.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/digitalcomm/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/digital/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/digital/digital_basic.xml",
+		"/F/College/2015Finals/Antenna/antenna and wave propagation/antenna and wave propagation/important.txt",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Scripts/fulladder.sbed",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Scripts/simple_sum.sbed",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Scripts/halfadder.sbed",
+		"/F/migration/Documents/Visual Studio 2008/Projects/Driven/Driven/bin/Debug/core/init.py",
+		"/F/migration/Documents/Visual Studio 2008/Projects/Driven/Driven/bin/Debug/core/timeDriven.py",
+		"/F/migration/Documents/Visual Studio 2008/Projects/Driven/Driven/bin/Debug/core/eventModel.py",
+		"/C/Users/Sprasad/Desktop/NS-2/fd.ns",
+		"/C/Users/Sprasad/Desktop/NS-2/Flowgram/blocks/arithmetic.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/digital/digital.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedBeta/SimbedBeta/bin/Debug/Blocks/arithmetic.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/Simbed/Simbed/bin/Debug/Core/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/Envision/Envision/bin/Debug/models/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/Envision/Envision/bin/Debug/core/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/Envision/Envision/bin/Debug/core/models.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/IPyWinFormV2.7.5/IPyWinFormV2.7.5/bin/Debug/core/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/Sorcery/Sorcery/bin/Debug/core/init.py",
+		"/F/Techman/Libraries/ILoveLucene-master/ILoveLucene-master/readme.markdown",
+		"/F/Techman/Libraries/ILoveLucene-master/ILoveLucene-master/src/Shell/bin/Debug/IronPython/Sample.py",
+		"/F/Techman/Libraries/ILoveLucene-master/ILoveLucene-master/default.ps1",
+		"/F/Techman/Libraries/dotNET/ironpython.2.7.5/tools/lib/site-packages/README.txt",
+		"/F/Techman/Libraries/dotNET/IronPython.StdLib.2.7.5/numpy-1.9.2/numpy-1.9.2/numpy/__init__.py",
+		"/F/Techman/Libraries/dotNET/ironpython.2.7.5/[Content_Types].xml",
+		"/C/Users/Sprasad/Desktop/tes.xml",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/DCS/DCS/bin/Debug/core/init.py",
+		"/F/CircuitMan/Research/MV_Paper/test/blockmodel.py",
+		"/F/CircuitMan/Research/MV_Paper/test/autoblock.py",
+		"/F/CircuitMan/Research/MV_Paper/test/old1.py",
+		"/F/CircuitMan/Research/MV_Paper/test/blockset.xml",
+		"/C/Users/Sprasad/Downloads/Programs/FCTB.2.16.11.0/lib/FastColoredTextBox.xml",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/core/init.py",
+		"/F/CircuitMan/Research/DigitalComm_Simulator/GPDC/GPDC/bin/Debug/core/presetup.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/lib/analogIO.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/presetup.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/models/simulation/init.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/Acoustic/noise/init.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/simulation/init.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/Generic/channels/init.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/Generic/modulators/init.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic_SimNET/core/lib/test.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic_SimNET/core/lib/pyc.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/lib/pyc.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/test.py",
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic_SimNET/core/init.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"C:\\Users\\Sprasad\\Documents\\Visual Studio 2013\\Projects\\SimbedBeta\\SimbedBeta\\bin\\Debug\\Blocks",
+			"F:\\CircuitMan\\Research\\MV_Paper\\NovaLogic-ReBuild"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"):",
+			"lock",
+			"only",
+			"read",
+			"obj",
+			"</block",
+			"<block",
+			"args=\\\".*\\\"",
+			"Signals\\.",
+			"Signals.",
+			"self.Y",
+			"-",
+			"\\(t,.*\\)",
+			"Arith\\.",
+			"args=(.*) />",
+			"self.X",
+			"<Block (.*)>",
+			"LED_GUI",
+			"y",
+			"x",
+			"t,x,y",
+			"logic_(.*)\\(t",
+			"block",
+			"Logic\\.",
+			"input name=\"y\"",
+			"input name=\\\"x\\\"",
+			"<output name=\\\"(.*)\\\" (.*) ",
+			"<output name=\"Output\" type=\"float\" ",
+			"<output name=\\\"(.*)\\\" (.*) ",
+			"<output name=\\\"(.*)\\\" (.*)",
+			"<output name=Output type=\"float\"/>",
+			"<output name=\\\"(.*)\\\" (.*) />",
+			"callback=.* args=.* />",
+			"<Block (.*)>",
+			"y",
+			"x",
+			"block_",
+			"t,x,y",
+			"</block",
+			"<block",
+			"\\n ",
+			"\\\\",
+			"\\\\\\\\",
+			"\\\\ ",
+			"\\\\([a-z0-9][a-z0-9][a-z0-9])",
+			"\\\\",
+			"\\\\([A-Za-z][A-Za-z][A-Za-z])",
+			"\\\\([A-Za-z][A-Za-z][0-9])",
+			"Y",
+			"X",
+			" ",
+			"\\n",
+			"this",
+			"this, simTime",
+			"this,t",
+			"None",
+			":",
+			"rand",
+			" as ",
+			"as",
+			"exept",
+			"\\[",
+			"]",
+			"\\]",
+			"args\\[\\\"(.*)\\\"\\]",
+			"oxy",
+			"def frequency",
+			"	",
+			"__get",
+			"([0-9]+)\\:",
+			"round",
+			"	",
+			" ",
+			"print (.*)",
+			"you",
+			"rand",
+			"getDat",
+			"__sql",
+			"self.__host",
+			"()):\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</Block",
+			"<Block",
+			"",
+			"self.B",
+			":",
+			"\\(self,t\\)",
+			"",
+			"/>",
+			"self.A",
+			"<Block $1 TypeName=\\\"DigitalBasic\\\">",
+			"self.LED_GUI",
+			"self.Y",
+			"self.X",
+			"t",
+			"logic_$1\\(self,t",
+			"Block",
+			"",
+			"input name=\\\"Y\\\"",
+			"input name=\\\"X\\\"",
+			"<output name=$1 $2 callback=\\\"$1\\\" ",
+			"<output name=$1 $2 callback=\\\"$1\\\" />",
+			"<output name=$1 $2 callback=\"$1\" />",
+			"<output name=$1 $2/>",
+			"/>",
+			"<Block $1  TypeName=\"TypeArithmetic\">",
+			"self.Y",
+			"self.X",
+			"",
+			"self,t",
+			"</Block",
+			"<Block",
+			"Block",
+			"\\n",
+			"",
+			"self.Y",
+			"self.X",
+			",",
+			"t",
+			"this",
+			"",
+			"================================\\n[",
+			"\\n[",
+			"]\\n\\n",
+			"\\n\\n",
+			"\\n",
+			"args.get(\"$1\")",
+			",",
+			"",
+			",",
+			"print($1)",
+			"print\\($1\\)",
+			"U"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Blocks/Arithmetic/init.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								923,
+								923
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 214.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.screen_saver":
+	{
+		"height": 129.0
+	},
+	"output.stino_log":
+	{
+		"height": 100.0
+	},
+	"output.testx":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "simbed_release.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"F:\\Personal\\lab\\Project_DI.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Blocks package="User" category="xx">
+  <Block name="HalfAdder" TypeName="HalfAdderType">
+    <input name="A_Value" type="any" default="True" />
+    <input name="B_Value" type="any" default="True" />
+    <output name="sum_Y" type="any" />
+    <output name="carry_Y" type="any" />
+  </Block>
+  <Block name="FullAdder" TypeName="FullAdderType">
+    <input name="A_Value" type="any" default="True" />
+    <input name="B_Value" type="any" default="True" />
+    <input name="Cin_Value" type="any" default="True" />
+    <output name="HA2_sum_Y" type="any" />
+    <output name="Cout_Y" type="any" />
+  </Block>
+</Blocks>

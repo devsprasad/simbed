@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Blocks package="Arith" category="Arithmetic">
+	<Block name="Constant"  TypeName="TypeArithmetic">
+		<output name="Output" type="float"  callback="Constant" />
+		<attrib name="constant" type="int" default="0" />
+	</Block>
+	<Block name="Add"  TypeName="TypeArithmetic">
+		<input name="X" type="float" default="0" />
+		<input name="Y" type="float" default="0" />
+		<output name="Output" type="float" callback="Add" />
+	</Block>	
+	<Block name="Sub"  TypeName="TypeArithmetic">
+		<input name="X" type="float" default="0" />
+		<input name="Y" type="float" default="0" />
+		<output name="Output" type="float" callback="Sub" />
+	</Block>
+	<Block name="Mul"  TypeName="TypeArithmetic">
+		<input name="X" type="float" default="0" />
+		<input name="Y" type="float" default="0" />
+		<output name="Output" type="float" callback="Mul" />
+	</Block>
+	<Block name="Div"  TypeName="TypeArithmetic">
+		<input name="X" type="float" default="0" />
+		<input name="Y" type="float" default="0" />
+		<output name="Output" type="float" callback="Div" />
+	</Block>
+	<Block name="Square"  TypeName="TypeArithmetic">
+		<input name="X" type="float" default="1" />
+		<output name="Output" type="float" callback="Square" />
+	</Block>
+	<Block name="Cube"  TypeName="TypeArithmetic">
+		<input name="X" type="float" default="1" />
+		<output name="Output" type="float" callback="Cube" />
+	</Block>
+</Blocks>
