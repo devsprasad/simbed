@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "Blocks/Arithmetic/init.py",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1168,
+				"buffer_size": 495,
 				"line_ending": "Windows"
 			}
 		}
@@ -603,10 +603,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 357.0,
-		"last_filter": "",
+		"height": 173.0,
+		"last_filter": "gitpus",
 		"selected_items":
 		[
+			[
+				"gitpus",
+				"Git: Push"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
 			[
 				"git",
 				"Git: Init"
@@ -664,11 +672,12 @@
 	},
 	"expanded_folders":
 	[
-		"/F/CircuitMan/Projects/DC/Blocks",
-		"/F/CircuitMan/Projects/DC/Blocks/Arithmetic"
+		"/F/CircuitMan/Projects/DC"
 	],
 	"file_history":
 	[
+		"/F/CircuitMan/Projects/DC/README.md",
+		"/F/CircuitMan/Projects/DC/Blocks/Arithmetic/init.py",
 		"/F/CircuitMan/Projects/DC/Blocks/Generic/generic.xml",
 		"/F/CircuitMan/Projects/DC/Blocks/Generic/init.py",
 		"/F/CircuitMan/Projects/DC/Blocks/Arithmetic/arithmetic.xml",
@@ -794,9 +803,7 @@
 		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/Generic/modulators/init.py",
 		"/F/CircuitMan/Research/MV_Paper/NovaLogic_SimNET/core/lib/test.py",
 		"/F/CircuitMan/Research/MV_Paper/NovaLogic_SimNET/core/lib/pyc.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/lib/pyc.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/test.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic_SimNET/core/init.py"
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/lib/pyc.py"
 	],
 	"find":
 	{
@@ -970,29 +977,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Blocks/Arithmetic/init.py",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1168,
+						"buffer_size": 495,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								923,
-								923
+								494,
+								494
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/AcademicMarkdown/AcademicMarkdown.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 570.0,
+						"translation.x": -0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1039,6 +1044,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 124.0
 	},
 	"output.screen_saver":
 	{
