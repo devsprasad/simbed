@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="SimbedBeta.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="SimbedBeta" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="SimbedBeta" version="1.0.0.0" publicKeyToken="906797DD8F384D1E" language="neutral" processorArchitecture="msil" />
     <commandLine file="SimbedBeta.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,66 +43,50 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="IronPython" version="2.7.5.0" publicKeyToken="7F709C5B713576E1" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="IronPython.Modules" version="2.7.5.0" publicKeyToken="7F709C5B713576E1" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Dynamic" version="1.1.0.20" publicKeyToken="7F709C5B713576E1" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Scripting" version="1.1.0.20" publicKeyToken="7F709C5B713576E1" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="Microsoft.Scripting.Metadata" version="1.1.0.20" publicKeyToken="7F709C5B713576E1" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IronPython.dll" size="1821184">
-      <assemblyIdentity name="IronPython" version="2.7.5.0" publicKeyToken="7F709C5B713576E1" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimbedBeta.exe" size="184832">
+      <assemblyIdentity name="SimbedBeta" version="1.0.0.0" publicKeyToken="906797DD8F384D1E" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>BPhbkGgA137Jb7Q2/QKSrDIo488=</dsig:DigestValue>
+        <dsig:DigestValue>paK9Ex4W5x7Ty3lAinbKtHP+ZUg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Dynamic.dll" size="1044992">
-      <assemblyIdentity name="Microsoft.Dynamic" version="1.1.0.20" publicKeyToken="7F709C5B713576E1" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimbedEnvisionCodeEditor.dll" size="17920">
+      <assemblyIdentity name="SimbedEnvisionCodeEditor" version="1.0.0.0" publicKeyToken="CFAF3C68DD83122B" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>9VLj/mSpMNaTcGORO1Ts9VG901o=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Scripting.dll" size="144384">
-      <assemblyIdentity name="Microsoft.Scripting" version="1.1.0.20" publicKeyToken="7F709C5B713576E1" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ErD1AsUmZGPngStH+NcNOquuiPQ=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimbedBeta.exe" size="184320">
-      <assemblyIdentity name="SimbedBeta" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>KAU6t5adj6DTWc2CDHc40QONmM4=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimbedEnvisionCodeEditor.dll" size="17408">
-      <assemblyIdentity name="SimbedEnvisionCodeEditor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>O2gjFLLnU/q8P5GuOEg7Ae+I53M=</dsig:DigestValue>
+        <dsig:DigestValue>JikzD+YRfD1kYXOOljgTADn0wZo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
