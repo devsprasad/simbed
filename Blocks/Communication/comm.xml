@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Blocks package="Communication" Category="Blockset for digital Communication simulations" >
+	<Block name="Modulator_ASK" TypeName="Modulator">
+		<input name="Data" type="list" default="[]" />
+		<attrib name="Carrier_Frequency" type="float" default="1" />
+		<attrib name="Bit_Duration" type="int" default="1" />
+		<attrib name="sample_rate" type="float" default="1" />
+		<output name="Output" type="list" /> 
+		<output name="TimeScale" type="list" /> 
+	</Block> 
+	<Block name="Channel_Ideal" TypeName="Channels">
+		<input name="Tx" type="list" default="[]" />
+		<output name="Rx" type="list" callback="Ideal" />
+	</Block>
+	<Block name="Channel_AWGN" TypeName="Channels">
+		<attrib name="NoisePower" type="float" default="0.0" />
+		<input name="Tx" type="list" default="[]" />
+		<output name="Rx" type="list" callback="AWGN" />
+	</Block>
+</Blocks>

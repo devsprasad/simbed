@@ -1,0 +1,5 @@
+${
+print("hello world")
+if t == 0:
+    print("xx")
+}

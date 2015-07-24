@@ -1,0 +1,6 @@
+assume ff as Signals.FFT
+
+let ff.xt be [1,2,3,4,5]
+
+let ff.N be 4
+show ff.Output

@@ -1,58 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Blocks package="Arith" category="Arithmetic">
 	<Block name="Log" TypeName="TypeArithmetic">
-		<input name="X" type="float" default="1" />
-		<input name="Base" type="float" default="1" />
-		<output name="log" type="float" />
+		<doc>Output = log &lt;sub&gt;Base&lt;/sub&gt;( X )</doc>
+		<input name="X" type="float" default="1">value of x in expression log(x)</input>
+		<input name="Base" type="float" default="1">base of logarithm operation</input>
+		<output name="log" type="float">log of `x` to the base `Base`</output>
 	</Block>
 	<Block name="Exponential" TypeName="TypeArithmetic">
 		<!-- X^Y -->
+		<doc>Output = X&lt;sup&gt;Y&lt;/sup&gt;</doc>
 		<input name="X" type="float" default="1" />
 		<input name="Y" type="float" default="1" />
 		<output name="Output" callback="Exponential" type="float" />
 	</Block>
 	<Block name="AntiLog" TypeName="TypeArithmetic">
+		<doc>Output = antilog &lt;sub&gt;Base&lt;/sub&gt;( X ) = Base &lt;sup&gt; X &lt;/sup&gt;</doc>
 		<input name="X" type="float" default="1" />
 		<input name="Base" type="float" default="1" />
 		<output name="log" type="float" />
 	</Block>
 	<Block name="Factorial" TypeName="TypeArithmetic" >
+		<doc> factorial = N!</doc>
 		<input name="N" type="float" default="1" />
 		<output name="factorial" type="float" />		
 	</Block>
 	<Block name="Absolute" TypeName="TypeArithmetic">
+		<doc>Output = abs( X ) = |x|</doc>
 		<input name="X" type="float" default="1" />		
 		<output name="Output" type="float" callback="absolute" />
 	</Block>		
 	<Block name="Constant"  TypeName="TypeArithmetic">
+		<doc> Output = constant </doc>
 		<output name="Output" type="float"  callback="Constant" />
-		<attrib name="constant" type="int" default="0" />
+		<attrib name="constant" type="float" default="0" />
 	</Block>
 	<Block name="Add"  TypeName="TypeArithmetic">
+		<doc> Output = X + Y </doc>
 		<input name="X" type="float" default="0" />
 		<input name="Y" type="float" default="0" />
 		<output name="Output" type="float" callback="Add" />
 	</Block>	
 	<Block name="Sub"  TypeName="TypeArithmetic">
+		<doc> Output = X - Y </doc>
 		<input name="X" type="float" default="0" />
 		<input name="Y" type="float" default="0" />
 		<output name="Output" type="float" callback="Sub" />
 	</Block>
 	<Block name="Mul"  TypeName="TypeArithmetic">
+		<doc> Output = X * Y </doc>
 		<input name="X" type="float" default="0" />
 		<input name="Y" type="float" default="0" />
 		<output name="Output" type="float" callback="Mul" />
 	</Block>
 	<Block name="Div"  TypeName="TypeArithmetic">
+		<doc> Output = X / Y </doc>
 		<input name="X" type="float" default="0" />
 		<input name="Y" type="float" default="0" />
 		<output name="Output" type="float" callback="Div" />
 	</Block>
 	<Block name="Square"  TypeName="TypeArithmetic">
+		<doc> Output = X &lt;sup&gt;2&lt;/sup&gt;  </doc>
 		<input name="X" type="float" default="1" />
 		<output name="Output" type="float" callback="Square" />
 	</Block>
 	<Block name="Cube"  TypeName="TypeArithmetic">
+		<doc> Output = X &lt;sup&gt;3&lt;/sup&gt;  </doc>
 		<input name="X" type="float" default="1" />
 		<output name="Output" type="float" callback="Cube" />
 	</Block>

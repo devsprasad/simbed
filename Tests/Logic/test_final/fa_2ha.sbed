@@ -1,0 +1,27 @@
+assume HA1 as User.HA
+assume HA2 as User.HA
+assume A as Logic.Source
+assume B as Logic.Source
+assume Cin as Logic.Source
+
+
+
+connect A.Output to HA1.A_Value
+connect B.Output to HA1.B_Value
+
+
+connect HA1.sum_Y to HA2.A_Value
+connect Cin.Output to HA2.B_Value
+
+assume Carry as Logic.OR
+
+connect HA1.carry_Y to Carry.A
+connect HA2.carry_Y to Carry.B
+
+show HA2.sum_Y
+
+
+
+
+
+

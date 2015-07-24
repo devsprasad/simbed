@@ -12,14 +12,28 @@ class DigitalBasic(object):
 		self.__Value = value
 
 	# inputs
-	A = False
-	B = False
+	__A = False
+	__B = False
 
 	def __init__(self):
 		super(DigitalBasic, self).__init__()
 		self.Value = False
 		self.A = False
 		self.B = False
+
+	@property
+	def A(self):
+	    return self.__A
+	@A.setter
+	def A(self,Value):
+		self.__A = bool(Value)
+
+	@property
+	def B(self):
+	    return self.__B
+	@B.setter
+	def B(self,Value):
+		self.__B = bool(Value)	
 		
 	def logic_buffer(self,t):
 		return self.Value

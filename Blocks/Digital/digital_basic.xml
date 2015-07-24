@@ -1,45 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Blocks package="Logic" category="Digital Logic (Simple)">
 	<Block name="Source" TypeName="DigitalBasic">
+		<doc>Output = Value (works as a buffer)</doc>
 		<input name="Value" type="bool" default="True" />
 		<output name="Output" type="bool" callback="logic_buffer" />
 	</Block>
 	<Block name="HIGH" TypeName="DigitalBasic">
-		<output name="value" type="bool" callback="logic_high" />
+		<doc>Output = True</doc>
+		<output name="Output" type="bool" callback="logic_high" />
 	</Block>
 	<Block name="LOW" TypeName="DigitalBasic">
-		<output name="value" type="bool" callback="logic_low" />
+		<doc>Output = False</doc>
+		<output name="Output" type="bool" callback="logic_low" />
 	</Block>
 	<Block name="AND" TypeName="DigitalBasic">
+		<doc> Y = A . B = A and B</doc>
 		<input name="A" type="bool" default="False" />
 		<input name="B" type="bool" default="False" />
 		<output name="Y" type="bool" callback="logic_AND" />
 	</Block>
 	<Block name="OR" TypeName="DigitalBasic">
+		<doc> Y = A + B = A or B</doc>
 		<input name="A" type="bool" default="False" />
 		<input name="B" type="bool" default="False" />
 		<output name="Y" type="bool" callback="logic_OR" />
 	</Block>
 	<Block name="NOT" TypeName="DigitalBasic">
+		<doc> Y = ~A = not A</doc>
 		<input name="A" type="bool" default="False" />
 		<output name="Y" type="bool" callback="logic_NOT" />
 	</Block>
 	<Block name="XOR" TypeName="DigitalBasic">
+		<doc> Y = (~A . B) + (A . ~B) = A (+) B</doc>
 		<input name="A" type="bool" default="False" />
 		<input name="B" type="bool" default="False" />
 		<output name="Y" type="bool" callback="logic_XOR" />
 	</Block>
 	<Block name="XNOR" TypeName="DigitalBasic">
+		<doc> Y = ~((~A . B) + (A . ~B)) = ~(A (+) B)</doc>
 		<input name="A" type="bool" default="False" />
 		<input name="B" type="bool" default="False" />
 		<output name="Y" type="bool" callback="logic_XNOR" />
 	</Block>
 	<Block name="NOR" TypeName="DigitalBasic">
+		<doc> Y = ~(A + B)</doc>
 		<input name="A" type="bool" default="False" />
 		<input name="B" type="bool" default="False" />
 		<output name="Y" type="bool" callback="logic_NOR" />
 	</Block>
 	<Block name="NAND" TypeName="DigitalBasic">
+		<doc> Y = ~(A . B)</doc>
 		<input name="A" type="bool" default="False" />
 		<input name="B" type="bool" default="False" />
 		<output name="Y" type="bool" callback="logic_NAND" />

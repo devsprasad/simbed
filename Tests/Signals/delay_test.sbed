@@ -1,0 +1,5 @@
+assume delay as Generic.UnitDelay
+
+let delay.Initial be False
+
+show delay.Output

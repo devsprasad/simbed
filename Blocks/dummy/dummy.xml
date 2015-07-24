@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Blocks package="Dummy" category="Dummy blocks for testing" >
+	<Block name="DummyB" TypeName="DummyClass">
+		<input name="A" type="any" default="0" />
+		<input name="B" type="any" default="0" />
+		<input name="C" type="any" default="0" />
+		<input name="D" type="any" default="0" />
+		<input name="E" type="any" default="0" />
+		<attrib name="X" type="any" default="0" />
+		<attrib name="Y" type="any" default="0" />
+		<attrib name="Z" type="any" default="0" />
+		<output name="OutA" type="any" callback="tes" />
+		<output name="OutB" type="any" callback="tes" />
+		<output name="OutC" type="any" callback="tes" />
+		<output name="OutD" type="any" callback="tes" />
+	</Block>
+</Blocks>

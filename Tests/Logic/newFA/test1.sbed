@@ -1,0 +1,21 @@
+assume HA1 as User.Test
+assume HA2 as User.Test
+
+let HA1.sum_A be True
+let HA1.carry_A be True
+
+let HA1.sum_B be False
+let HA1.carry_B be False
+
+let HA2.sum_A be False
+let HA2.carry_A be False
+
+connect HA1.sum_Y to HA2.sum_B
+connect HA1.sum_Y to HA2.carry_B
+
+assume OR as Logic.OR
+connect HA1.carry_Y to OR.A
+connect HA2.carry_Y to OR.B
+
+show HA2.sum_Y
+show OR.Y

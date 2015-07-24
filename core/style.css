@@ -1,0 +1,47 @@
+
+body {
+	background-color: white;
+	font-size: small;
+}
+
+.title {
+	font-weight: bold;
+	font-style: italic;
+	font-size: medium;
+}
+
+
+
+.help-string{
+	color:blue;
+}
+
+.package {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.package-id{
+
+}
+
+.name{
+	font-style: italic;
+	font-weight: bold;
+}
+
+.name-text{
+
+}
+
+.input-terminal{
+	color:red;
+}
+
+.type-name{
+	color:maroon;
+}
+
+.default{
+	color:green	;
+}

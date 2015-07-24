@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Blocks package="Signals" category="Signal Processing">
 	<Block name="Sinusoid" TypeName="SignalGenerator">
-		<attrib name="f" type="float" default="1" />
-		<attrib name="fs" type="float" default="20" />
-		<output name="xt" type="list" callback="block_sinusoid"  />
+		<doc>Generates a sinusoid with given frequency 'f' and sample rate 'fs'</doc>
+		<attrib name="f" type="float" default="1" >frequency in Hz</attrib>
+		<attrib name="fs" type="float" default="20" >sampling rate in samples/second</attrib>
+		<output name="xt" type="list" callback="block_sinusoid" >sinusoid samples in t to t+1 range</output>
 	</Block>
  	<Block name="Convolution" TypeName="SigConv">
-		<input name="X" type="list" default="[]" />
-		<input name="Y" type="list" default="[]" />
+ 		<doc> Output = X (x) Y = convolution of X with Y</doc>
+		<input name="X" type="list" default="[]">list of samples of signal X</input>
+		<input name="Y" type="list" default="[]">list of samples of signal Y</input>
 		<output name="Output" callback="block_conv" type="list" />
 	</Block>
 	<Block name="CrossCorrelation" TypeName="SigConv">
+ 		<doc> Output = X (xcorr) Y = cross-correlate X with Y</doc>
 		<input name="X" type="list" default="[]" />
 		<input name="Y" type="list" default="[]" />
 		<attrib name="n" type="float" default="-1" />
@@ -18,17 +21,20 @@
 		<output name="Output" callback="block_xcorr" type="list" />
 	</Block>
 	<Block name="AutoCorrelation" TypeName="SigConv">
+ 		<doc> Output = X (xcorr) X = cross-correlate X with X itself</doc>
 		<input name="X" type="list" default="[]" />
 		<attrib name="n" type="float" default="-1" />
 		<attrib name="m" type="float" default="-1" />
 		<output name="Output" callback="block_autocorr" type="list" />
 	</Block>
 	<Block name="FFT" TypeName="SignalProcessor">
+ 		<doc> Output = FFT { xt } </doc>
 		<input name="xt" type="list" default="[]" />
 		<input name="N" type="int" default="1024" />
 		<output name="Output" callback="block_fft" type="list" />
 	</Block>
 	<Block name="IFFT" TypeName="SignalProcessor">
+		<doc> Output = iFFT { Xf } </doc>
 		<input name="Xf" type="list" default="[]" />
 		<input name="N" type="int" default="1024" />
 		<output name="Output" callback="block_ifft" type="list" />

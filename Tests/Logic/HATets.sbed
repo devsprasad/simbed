@@ -1,0 +1,16 @@
+
+assume A as Logic.Source
+assume B as Logic.Source
+
+
+assume sum as Logic.XOR
+assume carry as Logic.AND
+
+connect A.Output to sum.A
+connect B.Output to sum.B
+
+connect A.Output to carry.A
+connect B.Output to carry.B
+
+show sum.Y
+

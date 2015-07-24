@@ -1,0 +1,19 @@
+assume A as Logic.Source
+assume B as Logic.Source
+assume Cin as Logic.Source
+
+let A.Value be True
+let Cin.Value be True
+
+assume HA1 as User.Test
+assume HA2 as User.Test
+
+connect A.Output to HA1.A_Value
+connect B.Output to HA1.B_Value
+
+connect Cin.Output to HA2.A_Value
+connect HA1.Sum_Y to HA2.B_Value
+
+show HA2.Sum_Y
+
+

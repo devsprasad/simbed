@@ -1,0 +1,23 @@
+assume x as Generic.Display
+assume y as Generic.Display
+
+$ if t%2 == 0:
+{
+   let y.Text be "y(t) = %s " % (t**2 + 2*t + 10)
+   let x.Text be "t = %s" % t
+   $ if t < 10:
+   {
+       let x.Text be "hello world"   
+       $ if t == 0:
+       {
+           $ print("helow")
+        }
+
+   }
+   $ x.Show(t)
+   $ y.Show(t)
+}
+
+
+
+

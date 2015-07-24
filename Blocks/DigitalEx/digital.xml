@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Blocks package="Digital" category="Digital(Encoding/Decoding)">
+	<Block name="ManchesterPhase" TypeName="ManchesterCoder">
+		<input name="Bit" type="bool" default="True">Current bit for encoding</input>
+		<attrib name="Encoder" type="bool" default="True">Works as encoder if true , decoder otherwise</attrib> 
+		<output name="Output" type="int">Encoded/Decoded Output</output>
+	</Block>
+</Blocks>
