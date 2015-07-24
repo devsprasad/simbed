@@ -519,24 +519,8 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 495,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 40,
-				"line_ending": "Windows"
-			}
-		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "Packages/Markdown Preview/Markdown.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -552,6 +536,22 @@
 			],
 			[
 				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Markdown Preview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/Synesthesia/Synesthesia.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Markdown Preview/Markdown.sublime-build",
 				""
 			]
 		],
@@ -611,10 +611,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "in",
+		"height": 219.0,
+		"last_filter": "git com",
 		"selected_items":
 		[
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"in",
 				"Package Control: Install Package"
@@ -646,10 +654,6 @@
 			[
 				"snip",
 				"Snippet: while"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"subl",
@@ -684,9 +688,16 @@
 	],
 	"file_history":
 	[
+		"/F/CircuitMan/Projects/DC/Blocks/user/user.xml",
+		"/F/CircuitMan/Projects/DC/Blocks/user/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Release/blocks/user/init.py",
+		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Release/blocks/user/user.xml",
+		"/F/CircuitMan/Projects/DC/core/init.py",
+		"/F/CircuitMan/Projects/DC/.gitignore",
+		"/F/CircuitMan/Projects/DC/README.md",
+		"/F/CircuitMan/Projects/DC/README.html",
 		"/F/CircuitMan/Projects/DC/.git/COMMIT_EDITMSG",
 		"/F/CircuitMan/Projects/DC/New Text Document.txt",
-		"/F/CircuitMan/Projects/DC/README.md",
 		"/F/CircuitMan/Projects/DC/Blocks/Arithmetic/init.py",
 		"/F/CircuitMan/Projects/DC/Blocks/Generic/generic.xml",
 		"/F/CircuitMan/Projects/DC/Blocks/Generic/init.py",
@@ -695,8 +706,6 @@
 		"/F/CircuitMan/Projects/DC/Blocks/signals/init.py",
 		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/user/init.py",
 		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/user/user.xml",
-		"/F/CircuitMan/Projects/DC/Blocks/user/user.xml",
-		"/F/CircuitMan/Projects/DC/Blocks/user/init.py",
 		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/init.py",
 		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/x/init.py",
 		"/C/Users/Sprasad/Documents/Visual Studio 2013/Projects/SimbedEnvision_CSharp/SimbedEnvision_CSharp/bin/Debug/blocks/x/test.xml",
@@ -806,12 +815,7 @@
 		"/F/CircuitMan/Research/DigitalComm_Simulator/GPDC/GPDC/bin/Debug/core/presetup.py",
 		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/lib/analogIO.py",
 		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/presetup.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/models/simulation/init.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/Acoustic/noise/init.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/simulation/init.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/Generic/channels/init.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/Generic/modulators/init.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic_SimNET/core/lib/test.py"
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/models/simulation/init.py"
 	],
 	"find":
 	{
@@ -980,65 +984,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 495,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								257,
-								257
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/AcademicMarkdown/AcademicMarkdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 40,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								40,
-								40
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1082,6 +1029,10 @@
 		"height": 0.0
 	},
 	"output.git":
+	{
+		"height": 124.0
+	},
+	"output.markdown":
 	{
 		"height": 124.0
 	},

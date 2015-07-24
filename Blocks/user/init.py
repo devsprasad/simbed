@@ -89,4 +89,3 @@ class FullAdderType(object):
         return self.HA2.sum_Y(0)
     def Cout_Y(self,t):
         return self.Cout.logic_OR(0)
-
