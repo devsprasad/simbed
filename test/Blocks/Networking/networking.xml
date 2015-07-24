@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Blocks package="Networking" category="Networking">
-	<Block name="DeviceNode" TypeName="DeviceNode">
-		<output name="Output" type="any" />
-	</Block>
-</Blocks>

@@ -526,6 +526,14 @@
 				"buffer_size": 495,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 40,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
@@ -676,6 +684,8 @@
 	],
 	"file_history":
 	[
+		"/F/CircuitMan/Projects/DC/.git/COMMIT_EDITMSG",
+		"/F/CircuitMan/Projects/DC/New Text Document.txt",
 		"/F/CircuitMan/Projects/DC/README.md",
 		"/F/CircuitMan/Projects/DC/Blocks/Arithmetic/init.py",
 		"/F/CircuitMan/Projects/DC/Blocks/Generic/generic.xml",
@@ -801,9 +811,7 @@
 		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/simulation/init.py",
 		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/Generic/channels/init.py",
 		"/F/CircuitMan/Research/MV_Paper/NovaLogic_Community/models/Generic/modulators/init.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic_SimNET/core/lib/test.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic_SimNET/core/lib/pyc.py",
-		"/F/CircuitMan/Research/MV_Paper/NovaLogic-ReBuild/core/lib/pyc.py"
+		"/F/CircuitMan/Research/MV_Paper/NovaLogic_SimNET/core/lib/test.py"
 	],
 	"find":
 	{
@@ -972,7 +980,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -988,15 +996,43 @@
 						"selection":
 						[
 							[
-								494,
-								494
+								495,
+								495
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/AcademicMarkdown/AcademicMarkdown.tmLanguage"
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},

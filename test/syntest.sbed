@@ -1,7 +1,0 @@
-
-block Test of TestPack
-	assume x as Logic.AND
-	let x.B be True
-end
-
-
