@@ -1,7 +1,0 @@
-assume x as Signals.Convolution
-
-let x.X be [1,2,3]
-let x.Y be [1,2,3]
-
-show x.Output
-

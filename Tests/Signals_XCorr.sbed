@@ -1,6 +1,0 @@
-assume corr as Signals.CrossCorrelation
-
-let corr.X be [1,2,3]
-let corr.Y be [1,2,3]
-
-show corr.Output

@@ -1,9 +1,0 @@
-assume FA as User.FullAdder
-
-let FA.A_Value be False
-let FA.B_Value be False
-let FA.Cin_Value be True
-
-show FA.HA2_sum_Y
-show FA.HA2_sum_Y
-

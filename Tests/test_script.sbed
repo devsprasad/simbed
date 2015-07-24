@@ -1,6 +1,0 @@
-assume dummy as Dummy.DummyB
-assume d as Generic.Display
-
-let dummy.Y be True
-
-connect dummy.OutA to d.Text
