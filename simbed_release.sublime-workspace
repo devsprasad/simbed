@@ -611,10 +611,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 173.0,
-		"last_filter": "gitpus",
+		"height": 392.0,
+		"last_filter": "in",
 		"selected_items":
 		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"gitpus",
 				"Git: Push"
@@ -640,15 +648,7 @@
 				"Snippet: while"
 			],
 			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
 				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"inst",
 				"Package Control: Install Package"
 			],
 			[
@@ -980,7 +980,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -996,8 +996,8 @@
 						"selection":
 						[
 							[
-								495,
-								495
+								257,
+								257
 							]
 						],
 						"settings":
@@ -1008,7 +1008,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1036,7 +1036,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
